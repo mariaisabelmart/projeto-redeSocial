@@ -47,7 +47,7 @@ iframe#tela {
     top: 80px;
     left: 22px;
     /*tamanho do iframe*/
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
@@ -71,5 +71,4 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px); /*p/ o botão dar uma leve afastada quando passar o mouse*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
     transition: transform .3s, border 1s;/*p/ o transform e borda não ser tão rápido*/
-
 }
