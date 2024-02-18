@@ -39,3 +39,16 @@ section#telefone {
     /*essas medidas podem ser encontradas usando o Gimp, em Propriedades de imagem, observando a medida dela (para deixar essa section do tamanho certo da imagem do telefone*/
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+
+iframe#tela {
+    /*configurar o iframe dentro do celular*/
+    position: relative;
+    /*medidas para colocar a "imagem home/iframe" exatamente ao canto esquerdo superior da "imagem celular"*/
+    top: 80px;
+    left: 22px;
+    /*tamanho do iframe*/
+    width: 269px;
+    height: 471px;
+
+    
+}
