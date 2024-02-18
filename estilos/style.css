@@ -49,6 +49,27 @@ iframe#tela {
     /*tamanho do iframe*/
     width: 269px;
     height: 471px;
+}
 
-    
+section#redes-sociais {
+    /*colocar as imagens link das redes sociais na direita*/
+    text-align: right;
+}
+
+section#redes-sociais img {
+    /*configurar as imagens dos links para as redes sociais*/
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*para deixar as imagens redondas*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+    box-sizing: border-box; /*p/ quando passar o mouse, a borda branca não empurrar os outros botões (a borda vai ficar fazendo parte da caixa*/
+}
+
+section#redes-sociais img:hover {
+    /*estilo quando passar o mouse*/
+    border: 2px solid rgba(255, 255, 255, 0.432);
+    transform: translate(-3px, -3px); /*p/ o botão dar uma leve afastada quando passar o mouse*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
+    transition: transform .3s, border 1s;/*p/ o transform e borda não ser tão rápido*/
+
 }
